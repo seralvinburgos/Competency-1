@@ -1,0 +1,349 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Special+Elite&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;/*reset to 10px*/
+    overflow-x: hidden;
+}
+body{
+    background-image: url(keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    background-color: #111111;
+    overflow-x: hidden;
+
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    margin-bottom: 20px;  
+}
+h2{
+    font-family: 'Special Elite', cursive;
+    color: skyblue;
+    font-size: 3rem;
+}
+p{
+    padding: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+main{
+    height: 100vh;
+}
+/*utilities*/
+.container{           
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn{
+    font-family: 'Special Elite', cursive;
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #333333;
+    color: white;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-home{
+    font-family: 'Special Elite', cursive;
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-small{
+    width: 20rem;
+    font-size: 1.4rem;
+    color: black;
+    background-color: lightgreen;
+}
+.heading{
+    text-align: center;
+    margin: 0 5rem;
+    font-size: 4rem;
+    padding: 1rem;
+}
+.greeting-box{
+
+    padding: 1rem;
+    margin: 3rem;
+    width: auto;
+    border-radius: 2.5rem;
+    /*background-color: #333333;
+    background: rgba(33, 33, 33, 0.6);*/
+    background-image: url(greetingback.jpg);
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.7;
+  
+}
+.home-box{
+    padding: 5rem;
+    margin: 3rem;
+    width: auto;
+    border-radius: 2.5rem;
+    background-color: #333333;
+    background: rgba(58, 58, 58, 0.6);
+}
+
+
+/*header*/
+.main-div{
+    display: flex;
+}
+
+.greeting{ 
+    padding-left: 50px;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.my-name{
+    padding-left: 50px;
+    font-size: 3rem;
+    color: #ffcc00;
+    text-transform: uppercase;
+}
+.my-name span{
+    color: white;
+}
+.site-header .user-info{
+    width: 33rem;
+    padding-top: 4rem;
+    height: 100%; 
+    background-color: #222222;
+    background: rgba(58, 58, 58, 0.6); 
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.site-header h1{
+    font-family: 'Special Elite', cursive;
+    color: #ffcc00;
+    font-size: 2.5rem;
+}
+.site-header .title{
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 3rem;
+}
+.site-header .location{
+    text-align: center;
+    font-size: 1.7rem;
+    color: #ffcc00;
+}
+.site-header img{
+    width: 225px;
+    border-radius: 0%;
+    border: 3px solid #dedede;
+}
+
+
+/*menu*/
+nav.menu{
+    width: 100%;
+}
+main{
+    width: 70%;
+}
+.site-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+/*about*/
+.btn-about{
+    font-family: 'Special Elite', cursive;
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+.info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #ffcc00;
+    padding: 1rem;
+    font-weight: normal;
+}
+.about-box{
+    padding: 5rem;
+    margin: 3rem;
+    width: auto;
+    border-radius: 2.5rem;
+    background-color: #333333;
+    background: rgba(58, 58, 58, 0.6);
+}
+.info h3 span{
+    color: white;
+    margin-right: 1rem;
+}
+
+
+/*education*/
+.btn-education{
+    font-family: 'Special Elite', cursive;
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+.box{
+    padding: 1rem;
+    margin: 3rem;
+    width: auto;
+    border-radius: 2.5rem;
+    background: rgba(58, 58, 58, 0.6);
+    font-size: 2rem;
+}
+.current-box{
+    padding: 1rem;
+    margin: 3rem;
+    width: auto;
+    border-radius: 2.5rem;
+    background: rgba(58, 58, 58, 0.6);
+    font-size: 2rem;
+}
+.education-title{
+    display: flex;
+    align-items: center;
+}
+.education-title i{
+    padding-left: 2rem;
+}
+.box .degree{
+    font-size: 2.5rem;
+    color: #ffcc00;
+    font-family: 'Special Elite', cursive;
+    text-transform: uppercase;
+}
+.current-box .active{
+    font-size: 2.5rem;
+    color: #ffcc00;
+    font-family: 'Special Elite', cursive;
+    text-transform: uppercase;
+}
+.container span{
+    font-size: 1.7rem;
+}
+
+
+/*portfolio*/
+.btn-portfolio{
+    font-family: 'Special Elite', cursive;
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+h4{
+    padding-top: 2rem;
+    font-family: 'Special Elite', cursive;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #ffcc00;
+}
+.port-box{
+    padding: 5rem;
+    margin: 3rem;
+    width: auto;
+    border-radius: 2.5rem;
+    background-color: #333333;
+    background: rgba(58, 58, 58, 0.6);
+}
+.port-box li{
+    padding-left: 2rem;
+    margin: 2rem;
+    font-size: 2rem;
+    
+}
+
+
+/*contact*/
+.btn-contact{
+    font-family: 'Special Elite', cursive;
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+.about-box{
+    padding: 1rem;
+    margin: 3rem;
+    width: auto;
+    border-radius: 2.5rem;
+    background: rgba(58, 58, 58, 0.6);
+}
+.btn-subscribe{
+    font-family: 'Special Elite', cursive;
+    width: 30rem;
+    font-size: 1.4rem;
+    background-color: rgb(57, 141, 95);
+}
+#email{
+    margin-left: 1.5rem;
+    height: 3rem;
+    width: 30rem;
+}
+#enterbelow{
+    padding-left: 1.5rem;
+    padding-bottom: 0;
+}
+.contact-icons{
+    padding: 1rem;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    border-radius: 2.5rem;
+    background-color: #333333;
+    background: rgba(58, 58, 58, 0.6);
+    
+}
+.contact-icons span{
+    margin: 4rem;
+}
